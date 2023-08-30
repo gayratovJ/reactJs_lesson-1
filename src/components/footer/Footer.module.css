@@ -1,0 +1,44 @@
+footer {
+  padding: 43px 0px 30px 0px;
+  border-top: 1px solid gray;
+  font-family: 'Roboto', sans-serif;
+}
+
+.gray {
+  color: #6E7191;
+  text-align: right;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  align-self: center;
+
+  /* 166.7% */
+}
+
+.blue {
+  color: #0075FF;
+  text-align: right;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30.006px;
+  /* 166.7% */
+  text-decoration-line: underline;
+  align-self: center;
+
+}
+
+.container {
+  padding: 0px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width:700px) {
+  .container {
+
+    display: grid;
+  }
+}
